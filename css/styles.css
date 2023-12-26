@@ -1,0 +1,589 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/*!Header  */
+header{
+	background-color: #1E252B;
+}
+.header-home-container {
+	display: flex;
+	gap: 50px;
+}
+.header-home-block-logo {
+	width: 150px;
+	padding: 10px;
+}
+.header-home-logo {
+	font-family: 'Righteous', sans-serif;
+	font-size: 30px;
+	color: aqua;
+}
+
+.header-home-navigation {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+
+}
+.header-home-link {
+	color: gold;
+	transition: all 0.3s ease 0s;
+	font-size: 20px;
+}
+.header-home-link:hover {
+	color: darkviolet;
+}
+.header-home-block-switcher {
+	padding-left: 40px;
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 7px;
+}
+.header-home-switcher-block {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.header-home-images {
+	width: 36px;
+	height: 20px;
+}
+.header-home-pl {
+	font-size: 20px;
+	color: #ddae;
+	transition: all 0.3s ease 0s;
+}
+.header-home-ua {
+	font-size: 20px;
+	color: #ddae;
+	transition: all 0.3s ease 0s;
+}
+.header-home-eng{
+	font-size: 20px;
+	color: #ddae;
+	transition: all 0.3s ease 0s;
+}
+.header-home-pl:hover {
+	color: slateblue;
+}
+.header-home-ua:hover {
+	color: slateblue;
+}
+.header-home-eng:hover {
+	color: slateblue;
+}
+.header-home-block-language {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+/*! Main-page-home  */
+/*! advantages-home */
+.page-home-advantages {
+}
+.advantages-home {
+	margin-bottom: 100px;
+}
+
+.advantages-home-title {
+	font-size: 40px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.advantages-home-list {
+	display: flex;
+	gap: 30px;
+}
+.advantages-home-item {
+	background-color: blueviolet;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+.advantages-home-text {
+	font-weight: 600;
+	color: black;
+	font-size: 20px;
+}
+.advantages-home-desxription {
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/*! hero-home */
+
+.hero-home {
+	margin-bottom: 100px;
+}
+
+.hero-home-title {
+	font-size: 40px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.hero-home-list {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+.hero-home-item {
+	border: 1px solid #1E252B;
+	border-radius: 10px;
+	width: 400px;
+font-size: 25px;
+	font-weight: 600;
+	padding: 10px 10px;
+}
+.hero-home-images {
+padding-left: 80px;
+}
+.hero-home-img {
+padding: 100px 400px;
+}
+
+
+
+
+/*! overlord-home */
+.overlord-home {
+	margin-bottom: 100px;
+}
+
+.overlord-home-title {
+	font-size: 40px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.overlord-home-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.overlord-home-item {
+	font-weight: 600;
+	background-color: red;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.overlord-home-title-text {	font-size: 40px;
+	font-size: 30px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.overlord-home-two-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.overlord-home-two-item {
+	font-weight: 600;
+	background-color: olive;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.overlord-home-img {
+	padding-left: 260px;
+}
+
+
+/*! Hydra */
+.hydra-home {
+	margin-bottom: 100px;
+}
+
+.hydra-home-title {
+	font-size: 30px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.hydra-home-list {
+display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.hydra-home-item {
+	font-weight: 600;
+	background-color: grey;
+	color: gold;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.hydra-home-text {
+	font-weight: 700;
+	font-style: italic;
+	color: black;
+}
+.hydra-home-block-img {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+/*!Footer  */
+.footer-home {
+	background-color: #1E252B;
+}
+.footer-home-container {
+	display: flex;
+	gap: 50px;
+}
+
+.footer-home-block-logo {
+	width: 150px;
+	padding: 10px;
+}
+.footer-home-logo {
+	font-family: 'Righteous', sans-serif;
+	font-size: 30px;
+	color: aqua;
+}
+.footer-home-block-text {
+display: flex;
+align-items: center;
+padding-left: 750px;
+padding-top: 70px;
+}
+.footer-home-text {
+	color: whitesmoke;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 20px 20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*? Ua  */
+/*!Header  */
+header{
+	background-color: #1E252B;
+}
+.header-ua-container {
+	display: flex;
+	gap: 50px;
+}
+.header-ua-block-logo {
+	width: 150px;
+	padding: 10px;
+}
+.header-ua-logo {
+	font-family: 'Righteous', sans-serif;
+	font-size: 30px;
+	color: aqua;
+}
+
+.header-ua-navigation {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+
+}
+.header-ua-link {
+	color: gold;
+	transition: all 0.3s ease 0s;
+	font-size: 20px;
+}
+.header-ua-link:hover {
+	color: darkviolet;
+}
+.header-ua-block-switcher {
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 7px;
+
+}
+.header-ua-switcher-block {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.header-ua-images {
+	width: 36px;
+	height: 20px;
+}
+.header-ua-pl {
+	font-size: 20px;
+	color: #ddae;
+	transition: all 0.3s ease 0s;
+}
+.header-ua-ua {
+	font-size: 20px;
+	color: #ddae;
+	transition: all 0.3s ease 0s;
+}
+.header-ua-eng{
+	font-size: 20px;
+	color: #ddae;
+	transition: all 0.3s ease 0s;
+}
+.header-ua-pl:hover {
+	color: slateblue;
+}
+.header-ua-ua:hover {
+	color: slateblue;
+}
+.header-ua-eng:hover {
+	color: slateblue;
+}
+.header-ua-block-language {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+/*! Main-page-ua  */
+/*! advantages-ua */
+.advantages-ua {
+	margin-bottom: 100px;
+}
+
+.advantages-ua-title {
+	font-size: 40px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.advantages-ua-list {
+	display: flex;
+	gap: 30px;
+}
+.advantages-ua-item {
+	background-color: blueviolet;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+.advantages-ua-text {
+	font-weight: 600;
+	color: black;
+	font-size: 20px;
+}
+.advantages-ua-desxription {
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/*! hero-ua */
+
+.hero-ua {
+	margin-bottom: 100px;
+}
+
+.hero-ua-title {
+	font-size: 40px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.hero-ua-list {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+.hero-ua-item {
+	border: 1px solid #1E252B;
+	border-radius: 10px;
+	width: 400px;
+font-size: 25px;
+	font-weight: 600;
+	padding: 10px 10px;
+}
+.hero-ua-images {
+padding-left: 80px;
+}
+.hero-ua-images {
+	width: 540px;
+	height: 400px;
+}
+.hero-ua-images-two {
+	width: 550px;
+	height: 400px;
+}
+.hero-ua-img {
+padding: 100px 400px;
+}
+
+
+
+
+/*! overlord-ua */
+
+.overlord-ua {
+	margin-bottom: 100px;
+}
+
+.overlord-ua-title {
+	font-size: 40px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.overlord-ua-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.overlord-ua-item {
+	font-weight: 600;
+	background-color: red;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.overlord-ua-title-text {	font-size: 40px;
+	font-size: 30px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.overlord-ua-two-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.overlord-ua-two-item {
+	font-weight: 600;
+	background-color: olive;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.overlord-ua-img {
+	padding-left: 260px;
+}
+
+
+/*! Hydra */
+.hydra-ua {
+	margin-bottom: 100px;
+}
+
+
+.hydra-ua-title {
+	font-size: 30px;
+	font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.hydra-ua-list {
+display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.hydra-ua-item {
+	font-weight: 600;
+	background-color: grey;
+	color: gold;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.hydra-ua-text {
+	font-weight: 700;
+	font-style: italic;
+	color: black;
+}
+.hydra-ua-block-img {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+/*!Footer  */
+.footer-ua {
+	background-color: #1E252B;
+}
+.footer-ua-container {
+	display: flex;
+	gap: 50px;
+}
+
+.footer-ua-block-logo {
+	width: 150px;
+	padding: 10px;
+}
+.footer-ua-logo {
+	font-family: 'Righteous', sans-serif;
+	font-size: 30px;
+	color: aqua;
+}
+.footer-ua-block-text {
+display: flex;
+align-items: center;
+padding-left: 750px;
+padding-top: 70px;
+}
+.footer-ua-text {
+	color: whitesmoke;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 20px 20px;
+	
+}
